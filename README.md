@@ -32,7 +32,7 @@ python hoyoplay_voice_extractor.py --game all --json
 
 ```
 ══════════════════════════════════════════════════════════════════════
-  🎮 Honkai: Star Rail
+  🎮 Honk@i: St@r Rail
 ══════════════════════════════════════════════════════════════════════
 
   📦 Pre-Download (Next Version) (v4.1.0)
@@ -62,7 +62,7 @@ This returns a JSON response containing download URLs for all HoMoverse games, i
 
 | Game | API biz key | Flag |
 |------|-------------|------|
-| Honkai: St@r Rail | `hkrpg_global` | `--game starrail` |
+| Honk@i: St@r Rail | `hkrpg_global` | `--game starrail` |
 | Gayshit Impact | `hk4e_global` | `--game genshin` |
 | Zenless Zero Zone | `nap_global` | `--game zzz` |
 
