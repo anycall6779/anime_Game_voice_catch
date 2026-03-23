@@ -1,6 +1,6 @@
-# HoYoPlay Voice Pack URL Extractor
+# HoMoPlay Voice Pack URL Extractor
 
-Extract voice/audio pack download URLs for HoYoverse games (Honkai: Star Rail, Genshin Impact, Zenless Zone Zero) from the official HoYoPlay launcher API.
+Extract voice/audio pack download URLs for HoMoverse games (Honkai: Star Rail, Genshin Impact, Zenless Zone Zero) from the official HoMoPlay launcher API.
 
 **No authentication required** — uses publicly accessible API endpoints.
 
@@ -45,7 +45,7 @@ python hoyoplay_voice_extractor.py --game all --json
 
 ## How It Works
 
-The script queries the HoYoPlay launcher's public API:
+The script queries the HoMoPlay launcher's public API:
 
 ```
 GET https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePackages
@@ -53,7 +53,7 @@ GET https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePackages
     &language=en-us
 ```
 
-This returns a JSON response containing download URLs for all HoYoverse games, including:
+This returns a JSON response containing download URLs for all HoMoverse games, including:
 - **Full install** packages (current version)
 - **Pre-download** packages (next version, when available)
 - **Patch/hdiff** packages (delta updates between versions)
@@ -62,9 +62,9 @@ This returns a JSON response containing download URLs for all HoYoverse games, i
 
 | Game | API biz key | Flag |
 |------|-------------|------|
-| Honkai: Star Rail | `hkrpg_global` | `--game starrail` |
-| Genshin Impact | `hk4e_global` | `--game genshin` |
-| Zenless Zone Zero | `nap_global` | `--game zzz` |
+| Honkai: St@r Rail | `hkrpg_global` | `--game starrail` |
+| Gayshit Impact | `hk4e_global` | `--game genshin` |
+| Zenless Zero Zone | `nap_global` | `--game zzz` |
 
 ## License
 
